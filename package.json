@@ -20,7 +20,7 @@
   ],
   "main": "index.js",
   "scripts": {
-    "test": "protractor config/config.js",
+    "test": "./flake config/config.js",
     "webdriver-start": "webdriver-manager start",
     "webdriver-update": "webdriver-manager update"
   },
@@ -32,6 +32,7 @@
     "chai": "^4.1.2",
     "chai-as-promised": "^7.1.1",
     "cucumber": "^3.1.0",
+    "protractor-flake": "4.0.0",
     "cucumber-html-report": "^0.6.2",
     "cucumber-html-reporter": "^3.0.4",
     "cucumberjs-allure-reporter": "^1.0.3",
